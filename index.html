@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa Mental Completo do Manual da Igreja 2025</title>
+    <title>Mapa Mental Completo do Manual da Igreja 2025 - Cores Oficiais</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
+        /* Cores Oficiais (Aproximação Hex):
+           - Vermelho Principal: #CC0000
+           - Azul Profundo (Secundário): #1565C0
+           - Teal/Verde (Terciário): #008080
+           - Ouro/Amarelo (Destaque): #FFCC00
+        */
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f0f3f8;
@@ -26,7 +32,7 @@
         }
         .main-title {
             color: #1f2937;
-            border-bottom: 4px solid #cc0000; /* Vermelho forte */
+            border-bottom: 4px solid #CC0000; /* Vermelho Principal */
             padding-bottom: 10px;
             margin-bottom: 30px;
             text-align: center;
@@ -38,7 +44,7 @@
             font-weight: 700;
             cursor: pointer;
             padding: 5px 0;
-            color: #cc0000; /* Vermelho */
+            color: #CC0000; /* Vermelho Principal para o Título do Capítulo */
         }
         details > summary::-webkit-details-marker {
             display: none;
@@ -48,17 +54,17 @@
             font-size: 0.8rem;
             margin-right: 10px;
             transition: transform 0.2s;
-            color: #4b5563; /* Cinza escuro */
+            color: #4b5563; /* Cinza escuro para seta fechada */
         }
         details[open] > summary:before {
             content: '▼';
             transform: rotate(0deg);
-            color: #059669; /* Verde */
+            color: #008080; /* Teal/Verde para seta aberta */
         }
-        /* Estilização dos níveis do mapa */
-        .level-1 { border-left: 6px solid #cc0000; } /* Capítulo - Vermelho Principal */
-        .level-2 { border-left: 4px solid #3b82f6; } /* Subseção - Azul */
-        .level-3 { background-color: #f9f9f9; padding: 8px 12px; border-radius: 6px; border-left: 2px solid #10b981; margin-top: 5px; } /* Detalhe - Verde */
+        /* Estilização dos níveis do mapa com Cores Oficiais */
+        .level-1 { border-left: 6px solid #CC0000; } /* Capítulo - Vermelho Principal */
+        .level-2 { border-left: 4px solid #1565C0; } /* Subseção - Azul Profundo */
+        .level-3 { background-color: #f9f9f9; padding: 8px 12px; border-radius: 6px; border-left: 2px solid #008080; margin-top: 5px; } /* Detalhe - Teal/Verde */
         .section-header { margin-top: 15px; font-weight: 600; color: #1f2937; }
     </style>
 </head>
@@ -66,10 +72,10 @@
 
     <div class="max-w-5xl mx-auto">
         <h1 class="text-3xl sm:text-4xl font-extrabold main-title">MAPA MENTAL COMPLETO: Manual da Igreja Adventista do Sétimo Dia (Edição 2025)</h1>
-        <p class="text-center text-gray-600 mb-8">Estrutura hierárquica completa do governo, doutrina e funcionamento da Igreja. Clique nas setas para expandir.</p>
+        <p class="text-center text-gray-600 mb-8">Estrutura hierárquica completa do governo, doutrina e funcionamento da Igreja.</p>
         
         <!-- RAIZ -->
-        <div class="mind-map-node bg-gray-900 text-white p-6 text-xl sm:text-2xl font-bold text-center border-b-8 border-yellow-400 mb-6">
+        <div class="mind-map-node bg-gray-900 text-white p-6 text-xl sm:text-2xl font-extrabold text-center border-b-8 border-[#FFCC00] mb-6">
             MANUAL DA IGREJA ADVENTISTA (EDIÇÃO 2025)
         </div>
 
@@ -390,6 +396,7 @@
                     <summary>Serviço de Casamento e Dedicação de Crianças</summary>
                     <div class="level-3">
                         <p>Regras Denominacionais para Casamento e Oficiais aptos para a Dedicação.</p>
+                    </p>
                     </div>
                 </details>
             </div>
@@ -455,7 +462,7 @@
         </details>
 
         <div class="mt-10 pt-4 border-t-2 border-gray-300 text-sm text-center text-gray-500">
-            *Este Mapa Mental representa a estrutura completa e canônica (tópicos de alto e médio nível) do Manual da Igreja Adventista do Sétimo Dia, edição 2025.
+            *Este Mapa Mental representa a estrutura completa e canônica (tópicos de alto e médio nível) do Manual da Igreja Adventista do Sétimo Dia, com cores estilizadas para refletir o padrão visual da Igreja.
         </div>
 
     </div>
